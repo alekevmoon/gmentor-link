@@ -2,7 +2,7 @@
   "id": "gmentor-link",
   "title": "GMentor Link",
   "description": "Open a character's GMentor sheet in a window inside Foundry VTT, and relay dice rolls made in GMentor into the Foundry chat log. Built for GURPS groups who keep their sheets on GMentor. | Открывает лист персонажа GMentor в окне внутри Foundry VTT и выкладывает броски, сделанные в GMentor, в чат Foundry. Сделан для GURPS-групп, которые ведут листы на GMentor.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "authors": [
     { "name": "Alekev.Moon" },
     { "name": "Noxmrr" }
