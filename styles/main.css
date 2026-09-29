@@ -1,0 +1,81 @@
+/* GMentor Link: окно с листом персонажа */
+.gmentor-window .window-content {
+  padding: 0;
+  overflow: hidden;
+}
+
+.gmentor-window iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #fff;
+}
+
+/* Броски из GMentor в чате */
+.gmentor-roll .gmr-source {
+  font-size: 0.8em;
+  opacity: 0.6;
+  margin-bottom: 4px;
+}
+
+.gmentor-roll .gmr-embed {
+  border-left: 4px solid #4a90d9;
+  padding: 4px 8px;
+  margin: 4px 0;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
+.gmentor-roll .gmr-author,
+.gmentor-roll .gmr-footer {
+  font-size: 0.85em;
+  opacity: 0.75;
+}
+
+.gmentor-roll .gmr-title {
+  font-weight: bold;
+  margin: 2px 0;
+}
+
+.gmentor-roll .gmr-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 4px;
+}
+
+.gmentor-roll .gmr-field {
+  flex: 1 1 100%;
+}
+
+.gmentor-roll .gmr-field.inline {
+  flex: 1 1 30%;
+}
+
+.gmentor-roll .gmr-fname {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.gmentor-roll .gmr-quote {
+  display: inline-block;
+  border-left: 3px solid rgba(128, 128, 128, 0.6);
+  padding-left: 6px;
+}
+
+.gmentor-roll .gmr-spoiler {
+  background: #202225;
+  color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.gmentor-roll .gmr-spoiler:hover {
+  color: inherit;
+  background: rgba(128, 128, 128, 0.3);
+}
+
+.gmentor-roll pre {
+  white-space: pre-wrap;
+  margin: 2px 0;
+}
